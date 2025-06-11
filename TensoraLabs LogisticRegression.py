@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 st.title('TensoraLabs - Logistic Regression')
-st.write('Turning ideas into reality.')
+
 
 if 'model' not in st.session_state:
     st.session_state.model = None
